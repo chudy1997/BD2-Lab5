@@ -1,0 +1,202 @@
+/*general*/
+.error{
+    border: double red;
+    color: red;
+}
+
+/*home*/
+.home{
+    color: orange;
+}
+
+/*product*/
+.product{
+    color: blue;
+    border: dotted blue;
+    margin: 5px;
+    cursor: auto;
+    font-size: 20px;
+}
+    .product .product-purchase{
+        border: dashed blue;
+        margin: 10px;
+        color: green;
+    }
+        .product .product-purchase .product-purchase-input{
+            border: double orange;
+            padding: 4px;
+            margin: 5px;
+        }
+        .product .product-purchase .product-purchase-confirm{
+            cursor: pointer;
+            background-color: #eee;
+            border: double orange;
+            width: 100px;
+            height: 40px;
+            margin: 10px;
+        }
+
+        .product .product-purchase .product-purchase-log-in{
+
+        }
+
+    .product .product-purchase-not-logged-in{
+        color: red;
+        font-weight: bold;
+    }
+
+    .product .product-info{
+        border: dashed blue;
+        margin: 10px;
+    }
+        .product .product-info .product-info-item{
+
+        }
+
+/*products*/
+.products{
+    font-size: 30px;
+}
+
+    .products .products-list{
+
+    }
+
+        .products .products-list .products-list-item{
+            list-style: none;
+            padding: 10px;
+            border: double orange;
+            margin: 10px;
+            left: 30%;
+            position: relative;
+            width: 40%;
+            background-color: #eee;
+        }
+
+        .products .products-list .products-list-item a{
+            text-decoration: none;
+            color: orange;
+        }
+
+/*signIn*/
+.sign-in-logged-in{
+    color: orange;
+    font-size: 20px;
+}
+
+    .sign-in-logged-in .sign-in-logged-in-info{
+    }
+
+    .sign-in-logged-in .sign-in-logout{
+        cursor: pointer;
+        background-color: #eee;
+        border: double orange;
+        width: 100px;
+        height: 40px;
+    }
+
+.sign-in-not-logged-in{
+    color: orange;
+    font-size: 20px;
+}
+
+    .sign-in-not-logged-in .sign-in-login{
+        margin: 10px;
+    }
+
+        .sign-in-not-logged-in .sign-in-login .sign-in-login-input{
+            margin-left: 49px;
+        }
+
+    .sign-in-not-logged-in .sign-in-password{
+        margin: 10px;
+    }
+
+        .sign-in-not-logged-in .sign-in-password .sign-in-password-input{
+            margin-left: 10px;
+        }
+
+    .sign-in-not-logged-in .sign-in-confirm{
+        cursor: pointer;
+        background-color: #eee;
+        border: double orange;
+        width: 100px;
+        height: 40px;
+        margin-top: 30px;
+    }
+
+    .sign-in-not-logged-in .sign-in-warning{
+        color: red;
+        font-weight: bold;
+    }
+
+/*transaction*/
+.transaction{
+    font-size: 20px;
+    color: blue;
+}
+
+    .transaction .transaction-cost{
+        border: dashed blue;
+        padding: 4px;
+        margin: 5px;
+    }
+
+    .transaction .transaction-products-list{
+        border: dashed blue;
+        padding: 4px;
+        margin: 5px;
+    }
+
+        .transaction .transaction-products-list .transaction-product{
+
+        }
+
+            .transaction .transaction-products-list .transaction-product .transaction-product-details-list{
+
+            }
+
+                .transaction .transaction-products-list .transaction-product .transaction-product-details-list
+                .transaction-product-details-list-item{
+
+                }
+
+.transaction-not-logged-in{
+    color: red;
+    font-weight: bold;
+}
+
+.transaction-empty{
+    color: red;
+    font-weight: bold;
+}
+
+/*transactions*/
+.transactions{
+    font-size: 30px;
+}
+
+.transactions .transactions-list{
+
+}
+
+.transactions .transactions-list .transactions-list-item{
+    list-style: none;
+    padding: 10px;
+    border: double orange;
+    margin: 10px;
+    left: 30%;
+    position: relative;
+    width: 40%;
+    background-color: #eee;
+}
+
+.transactions .transactions-list .transactions-list-item a{
+    text-decoration: none;
+    color: orange;
+}
+
+.transactions-not-logged-in{
+    color: red;
+    font-weight: bold;
+}

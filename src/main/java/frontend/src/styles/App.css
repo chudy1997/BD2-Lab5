@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+  color: gray;
+  overflow: auto;
+  border: double orange;
+    min-height: 240px;
+    background-color: #eee;
+    margin: 5px;
+}
+
+.App-header {
+  height: 80px;
+}
+
+.App-title {
+  font-size: 3em;
+}
+
+.App-nav {
+    width: 100%;
+  font-size: 2em;
+    margin:0 auto;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.App-nav-item{
+     display: inline-block;
+     cursor: pointer;
+     height: 40px;
+     width: 200px;
+     padding: 20px;
+     border: dotted orange;
+     text-decoration: none;
+     color: orange;
+ }
+
+.App-nav-item:hover{
+  background-color: gray;
+}
+
+.App-nav-item-home{
+    cursor: pointer;
+    text-decoration: none;
+    color: orange;
+}
+
+.App-main{
+    background-color: white;
+    margin-top: 20px;
+    border: double orange;
+    padding: 10px;
+}
+
+.App-footer{
+  border-top: double orange;
+  padding: 8px;
+}
